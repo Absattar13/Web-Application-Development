@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.dice-container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result, #rollCounter {
+    margin-top: 20px;
+    font-size: 18px;
+}
